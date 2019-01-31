@@ -1,0 +1,29 @@
+/*
+-----Bismillahi-r-Rahmani-r-Rahim-----
+Author : Noor Ismot Ara
+-----Break All Your Limitations!------
+*/
+// solution in C
+
+#include <stdio.h>
+int main()
+{
+    long long int width,height,flag,flag_w,flag_h;
+    scanf("%I64d %I64d %I64d ", &width, &height, &flag);
+    if(width%flag ==0 )
+    {
+        flag_w= width/flag;
+    }
+    else{
+        flag_w= (width/flag) + 1;
+    }
+    if(height%flag== 0)
+    {
+        flag_h=height/flag;
+    }
+    else{
+        flag_h= (height/flag) + 1;
+    }
+    printf("%I64d ",flag_w*flag_h);
+    return 0;
+}
