@@ -1,0 +1,22 @@
+/*
+-----Bismillahi-r-Rahmani-r-Rahim-----
+Author : Noor Ismot Ara
+-----Break All Your Limitations!------
+*/
+// solution in c
+
+
+#include <stdio.h>
+int main()
+{
+    int weight;
+    scanf("%d",&weight);
+    if (weight>2 && weight%2==0)
+    {
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
+    return 0;
+}
