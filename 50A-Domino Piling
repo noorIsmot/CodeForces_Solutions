@@ -1,0 +1,15 @@
+/*
+-----Bismillahi-r-Rahmani-r-Rahim-----
+Author : Noor Ismot Ara
+-----Break All Your Limitations!------
+*/
+// solution in C
+
+#include <stdio.h>
+int main()
+{
+    int m,n;
+    scanf("%d %d",&m,&n);
+    printf("%d",(m*n)/2);
+    return 0;
+}
